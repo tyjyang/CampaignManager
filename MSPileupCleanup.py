@@ -15,8 +15,8 @@ for campaign, config in campaigns.items():
             rucio_out = os.popen("rucio list-dataset-replicas cms:" + pu).read()
             if "DATASET" not in rucio_out:
                 pus_to_clean.append(pu)
-                config["secondaries"].pop(pu, None)
-campaigns_str = json.dumps(campaigns, indent = 4)
+                campaigns[campaign]["secondaries"].pop(pu, None)
+campaigns_str = json.dumps(campaigns, indent = 2, separators=(',', ': '))
 
 with open("PU-clearn-report.txt", "w") as outfile:
     outfile.write("The list of PUs found:\n")
