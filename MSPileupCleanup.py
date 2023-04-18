@@ -16,6 +16,7 @@ def get_sites_with_account_rules(dataset, rucio_account):
         if rule_account == rucio_account:
             if "|" in rule_site:
                 for x in rule_site.split("|"):
+                    print(dataset)
                     res.append(x)
             res.append(rule_site)
     return res
