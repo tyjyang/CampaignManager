@@ -3,7 +3,7 @@ import json
 import os
 from collections import OrderedDict
 
-campaigns = helper.import_jsonfile_as_OrderedDict("tests/test-campaigns.json")
+campaigns = io_tools.import_jsonfile_as_OrderedDict("tests/test-campaigns.json")
 campaigns = helper.change_SecondaryLocation_to_SiteWhitelist(campaigns)
 
 with open("log_cleanup.txt", "w") as log:

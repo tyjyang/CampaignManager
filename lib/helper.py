@@ -2,16 +2,6 @@ from collections import OrderedDict
 import json
 import os
 
-def import_jsonfile_as_OrderedDict(json_filepath):
-    f = open(json_filepath, "r")
-    campaigns = json.loads(f.read(), object_pairs_hook = OrderedDict)
-    return campaigns
-
-def export_dict_to_jsonfile(dic, json_filepath, indent = 2, separators=(',', ': ')):
-    outstr = json.dumps(dic, indent = indent, separators = separators)
-    with open(json_filepath, "w") as outfile:
-        outfile.write(outstr)
-
 # change the usage of "SecondaryLocation" to "SiteWhitelist" for PU locations in a campaign dict
 def change_SecondaryLocation_to_SiteWhitelist(campaigns_dict):
     for campaign, config in campaigns_dict.items():
@@ -39,6 +29,9 @@ def get_sites_with_account_rules(dataset, rucio_account):
             if rule_site not in res: res.append(rule_site) 
     return res
 
+def remove_empty_keys(dic):
+    return {k: remove_empty_keys(v) if isinstance(v, dict) else v for k, v in dic.items() if v and v.keys()}
+
 # given a config file, get a list of all PUs in that file
 def get_all_PU(config_filepath, sort = True):
     campaigns = import_jsonfile_as_OrderedDict(config_filepath)
@@ -50,13 +43,13 @@ def get_all_PU(config_filepath, sort = True):
     return pus
 
 # given a PU, find all campaigns that are using it in a given config file
-def get_campaigns_given_PU(config_filepath, pu_given, sort = True):
-    campaigns = import_jsonfile_as_OrderedDict(config_filepath)   
+def get_campaigns_given_PU(json_config, pu_given, sort = True):
     campaigns_found = []
-    for campaign, config in campaigns.items():
+    for campaign, config in json_config.items():
+        if not ('secondaries' in config.keys()): continue
         for pu in config['secondaries'].keys():
             if pu == pu_given:
-                campaigns_found.append(pu)
+                campaigns_found.append(campaign)
                 continue
     if sort: campaigns_found.sort()
     return campaigns_found

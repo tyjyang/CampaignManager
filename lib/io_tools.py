@@ -1,4 +1,15 @@
 import csv
+import json
+from collections import OrderedDict
+
+def import_jsonfile_as_OrderedDict(json_filepath):
+    f = open(json_filepath, "r")
+    return json.loads(f.read(), object_pairs_hook = OrderedDict)
+
+def export_dict_to_jsonfile(dic, json_filepath, indent = 2, separators=(',', ': ')):
+    outstr = json.dumps(dic, indent = indent, separators = separators)
+    with open(json_filepath, "w") as outfile:
+        outfile.write(outstr)
 
 def get_entries_in_csv_col(csv_filepath, col_name, delimiter = ','):
     with open(csv_filepath) as csv_file:
