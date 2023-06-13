@@ -54,5 +54,19 @@ def get_campaigns_given_PU(json_config, pu_given, sort = True):
     if sort: campaigns_found.sort()
     return campaigns_found
 
+def get_campaigns_given_blacklisted_site(json_config, blacklisted_site, sort = True):
+    campaigns_found = []
+    for campaign, config in json_config.items():
+        if not any([x in config.keys() for x in ['parameters', 'SiteBlacklist']]):
+            continue
+        elif 'SiteBlacklist' in config.keys():
+            if blacklisted_site in config["SiteBlacklist"]: campaigns_found.append(campaign)
+        elif 'parameters' in config.keys() and not 'SiteBlacklist' in config['parameters'].keys():
+            continue
+        else:
+            if blacklisted_site in config['parameters']['SiteBlacklist']: campaigns_found.append(campaign)
+    if sort: campaigns_found.sort()
+    return campaigns_found
+
 # given a config file, get a list of all PUs in that file
 #def wmcore_get_all_PU(
