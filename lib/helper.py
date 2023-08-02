@@ -68,5 +68,10 @@ def get_campaigns_given_blacklisted_site(json_config, blacklisted_site, sort = T
     if sort: campaigns_found.sort()
     return campaigns_found
 
+def execute_command(command, args):
+    if args.infoOnly:
+        print(command)
+    else:
+        os.system(command)
 # given a config file, get a list of all PUs in that file
 #def wmcore_get_all_PU(
