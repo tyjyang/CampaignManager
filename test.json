@@ -1,0 +1,4030 @@
+{
+  "RunIISpring21UL16FSGSPremix": {
+    "secondary_AAA": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ],
+    "go": true
+  },
+  "RunIISummer20UL17pp5TeVMiniAOD": {
+    "go": true,
+    "lumisize": -1,
+    "parameters": {
+      "MergedLFNBase": "/store/himc",
+      "SiteBlacklist": [
+        "T1_US_FNAL",
+        "T2_US_Purdue",
+        "T2_US_Caltech",
+        "T2_US_Florida",
+        "T2_US_Nebraska",
+        "T2_US_UCSD",
+        "T2_US_Wisconsin"
+      ]
+    },
+    "fractionpass": 0.95,
+    "resize": "auto"
+  },
+  "Run3Winter23GS": {
+    "go": true,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T1_ES_PIC",
+      "T1_FR_CCIN2P3",
+      "T2_CN_Beijing",
+      "T2_DE_RWTH",
+      "T2_FR_IPHC",
+      "T2_KR_KISTI",
+      "T2_PT_NCG_Lisbon",
+      "T2_RU_IHEP",
+      "T2_UK_SGrid_RALPP",
+      "T2_TR_METU",
+      "T2_FI_HIP",
+      "T2_RU_INR"
+    ]
+  },
+  "HINPbPbSpring21MiniAOD": {
+    "parameters": {
+      "MergedLFNBase": "/store/himc",
+      "SiteBlacklist": [
+        "T1_US_FNAL",
+        "T2_US_Purdue",
+        "T2_US_Caltech",
+        "T2_US_Florida",
+        "T2_US_Nebraska",
+        "T2_US_UCSD",
+        "T2_US_Wisconsin",
+        "T3_US_NERSC"
+      ]
+    },
+    "maxcopies": 1,
+    "custodial": "T1_FR_CCIN2P3_MSS",
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true
+  },
+  "Run3Summer21DR": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "maxcopies": 1,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ]
+  },
+  "Run3Summer22pLHEGS": {
+    "go": true,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T1_ES_PIC",
+      "T1_FR_CCIN2P3",
+      "T2_CN_Beijing",
+      "T2_DE_RWTH",
+      "T2_FR_IPHC",
+      "T2_KR_KISTI",
+      "T2_PT_NCG_Lisbon",
+      "T2_RU_IHEP",
+      "T2_UK_SGrid_RALPP",
+      "T2_TR_METU",
+      "T2_FI_HIP",
+      "T2_RU_INR"
+    ]
+  },
+  "RunIISummer16DR80": {
+    "NONONO_partial_copy": 0.98,
+    "maxcopies": 2,
+    "partial_copy": 0.95,
+    "NO_tune": true,
+    "lumisize": -1,
+    "NONONO_force-complete": 0.99,
+    "fractionpass": 0.95,
+    "NONONO_force-timeout": 7,
+    "go": true,
+    "overflow": {
+      "PU": {
+        "max": 20000
+      }
+    }
+  },
+  "Run3Summer21wmLHEGS": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "maxcopies": 1,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ]
+  },
+  "RunIISummer16MiniAODv3": {
+    "go": true,
+    "lumisize": -1,
+    "force-complete": 0.99,
+    "maxcopies": 1,
+    "fractionpass": 0.95
+  },
+  "RunIISpring21UL16FSwmLHEGSPremix": {
+    "secondary_AAA": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ],
+    "go": true
+  },
+  "Run3Summer22NanoAODv10": {
+    "go": true,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T1_ES_PIC",
+      "T1_FR_CCIN2P3",
+      "T2_CN_Beijing",
+      "T2_DE_RWTH",
+      "T2_FR_IPHC",
+      "T2_KR_KISTI",
+      "T2_PT_NCG_Lisbon",
+      "T2_RU_IHEP",
+      "T2_UK_SGrid_RALPP",
+      "T2_TR_METU",
+      "T2_FI_HIP",
+      "T2_RU_INR"
+    ]
+  },
+  "RunIISummer20UL16GENSIM": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "maxcopies": 1
+  },
+  "RunIISummer20UL16MiniAOD": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "Run3Summer22EEGS": {
+    "go": true,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T1_ES_PIC",
+      "T1_FR_CCIN2P3",
+      "T2_CN_Beijing",
+      "T2_DE_RWTH",
+      "T2_FR_IPHC",
+      "T2_KR_KISTI",
+      "T2_PT_NCG_Lisbon",
+      "T2_RU_IHEP",
+      "T2_UK_SGrid_RALPP",
+      "T2_TR_METU",
+      "T2_FI_HIP",
+      "T2_RU_INR"
+    ]
+  },
+  "Run3Winter22PbPbNoMixRECOMiniAOD": {
+    "go": true,
+    "lumisize": -1,
+    "parameters": {
+      "MergedLFNBase": "/store/himc",
+      "SiteBlacklist": [
+        "T1_ES_PIC",
+        "T1_FR_CCIN2P3",
+        "T2_CN_Beijing",
+        "T2_DE_RWTH",
+        "T2_FR_IPHC",
+        "T2_KR_KISTI",
+        "T2_PT_NCG_Lisbon",
+        "T2_RU_IHEP",
+        "T2_UK_SGrid_RALPP",
+        "T2_TR_METU",
+        "T2_FI_HIP",
+        "T2_RU_INR"
+      ]
+    },
+    "fractionpass": 0.95,
+    "resize": "auto"
+  },
+  "Run3Summer22MiniAODv3": {
+    "go": true,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T1_ES_PIC",
+      "T1_FR_CCIN2P3",
+      "T2_CN_Beijing",
+      "T2_DE_RWTH",
+      "T2_FR_IPHC",
+      "T2_KR_KISTI",
+      "T2_PT_NCG_Lisbon",
+      "T2_RU_IHEP",
+      "T2_UK_SGrid_RALPP",
+      "T2_TR_METU",
+      "T2_FI_HIP",
+      "T2_RU_INR"
+    ]
+  },
+  "Phase2Fall22DRMiniAOD": {
+    "go": true,
+    "secondaries": {
+      "/MinBias_TuneCP5_14TeV-pythia8/Phase2Fall22GS-HCalDetIDFix_125X_mcRun4_realistic_v2-v1/GEN-SIM": {
+        "SiteWhitelist": [
+          "T1_US_FNAL_Disk",
+          "T2_CH_CERN"
+        ]
+      }
+    },
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T1_ES_PIC",
+      "T1_FR_CCIN2P3",
+      "T2_CN_Beijing",
+      "T2_DE_RWTH",
+      "T2_FR_IPHC",
+      "T2_KR_KISTI",
+      "T2_PT_NCG_Lisbon",
+      "T2_RU_IHEP",
+      "T2_UK_SGrid_RALPP",
+      "T2_TR_METU",
+      "T2_FI_HIP",
+      "T2_RU_INR"
+    ]
+  },
+  "RunIIAutumn18MiniAOD": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "resize": "auto",
+    "maxcopies": 1
+  },
+  "RunIISpring21UL18FSGSPremixLLPBugFix": {
+    "secondary_AAA": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ],
+    "go": true
+  },
+  "RunIISummer20UL16NanoAODv9": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "RunIISummer17PrePremix": {
+    "parameters": {
+      "NonCustodialSites": [
+        "T2_CH_CERN",
+        "T1_US_FNAL"
+      ]
+    },
+    "partial_copy": 0.95,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "tune": true
+  },
+  "RunIISummer20UL16NanoAODAPVv2": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.99,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "RunIISpring21UL16FSwmLHEGSDR": {
+    "go": true,
+    "lumisize": -1,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ],
+    "fractionpass": 0.95,
+    "maxcopies": 1
+  },
+  "RunIISummer20UL18NanoAODv2": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.99,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "Run3Winter21GS": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "resize": "auto",
+    "maxcopies": 1
+  },
+  "HINPbPbAutumn22DR": {
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T1_ES_PIC",
+      "T1_FR_CCIN2P3",
+      "T2_CN_Beijing",
+      "T2_DE_RWTH",
+      "T2_FR_IPHC",
+      "T2_KR_KISTI",
+      "T2_PT_NCG_Lisbon",
+      "T2_RU_IHEP",
+      "T2_UK_SGrid_RALPP",
+      "T2_TR_METU",
+      "T2_FI_HIP",
+      "T2_RU_INR"
+    ]
+  },
+  "RunIISpring21UL18FSGSPremix": {
+    "secondary_AAA": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ],
+    "go": true
+  },
+  "RunIISummer20ULPrePremix": {
+    "tune": true,
+    "maxcopies": 1,
+    "partial_copy": 0.95,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "secondaries": {
+      "/MinBias_TuneCP5_13TeV-pythia8/RunIISummer20UL17SIM-106X_mc2017_realistic_v6-v2/GEN-SIM": {
+        "SiteWhitelist": [
+          "T1_IT_CNAF_Disk"
+        ]
+      },
+      "/MinBias_TuneCP5_13TeV-pythia8/RunIISummer20UL18SIM-106X_upgrade2018_realistic_v11_L1v1-v2/GEN-SIM": {
+        "SiteWhitelist": [
+          "T1_IT_CNAF_Disk",
+          "T2_CH_CERN"
+        ]
+      },
+      "/MinBias_TuneCP5_13TeV-pythia8/RunIISummer20UL16SIM-106X_mcRun2_asymptotic_v13-v2/GEN-SIM": {
+        "SiteWhitelist": [
+          "T1_US_FNAL_Disk",
+          "T1_IT_CNAF_Disk"
+        ]
+      }
+    },
+    "resize": "auto"
+  },
+  "RunIISpring21UL17FSSIMDR": {
+    "go": true,
+    "lumisize": -1,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ],
+    "fractionpass": 0.95,
+    "maxcopies": 1
+  },
+  "pPb816Spring16GS": {
+    "go": true,
+    "lumisize": -1,
+    "custodial": "T1_FR_CCIN2P3_MSS",
+    "fractionpass": 0.95,
+    "parameters": {
+      "MergedLFNBase": "/store/himc",
+      "SiteBlacklist": [
+        "T1_US_FNAL",
+        "T2_US_Purdue",
+        "T2_US_Caltech",
+        "T2_US_Florida",
+        "T2_US_Nebraska",
+        "T2_US_UCSD",
+        "T2_US_Wisconsin",
+        "T3_US_NERSC"
+      ]
+    }
+  },
+  "RunIISpring21UL17FSGSPremixLLPBugFix": {
+    "secondary_AAA": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ],
+    "go": true
+  },
+  "HINPbPbWinter16wmLHEGSHIMix": {
+    "parameters": {
+      "MergedLFNBase": "/store/himc",
+      "SiteBlacklist": [
+        "T1_US_FNAL",
+        "T2_US_Purdue",
+        "T2_US_Caltech",
+        "T2_US_Florida",
+        "T2_US_Nebraska",
+        "T2_US_UCSD",
+        "T2_US_Wisconsin",
+        "T2_CH_CERN"
+      ]
+    },
+    "maxcopies": 1,
+    "custodial": "T1_FR_CCIN2P3_MSS",
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "tune": true
+  },
+  "Commissioning900DR": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "maxcopies": 1
+  },
+  "RunIIAutumn18FSPremix": {
+    "secondary_AAA": true,
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ],
+    "go": true,
+    "overflow": {},
+    "secondaries": {
+      "/Neutrino_E-10_gun/RunIIFall17FSPrePremix-PUMoriond18_102X_upgrade2018_realistic_v15-v2/GEN-SIM-DIGI-RAW": {
+        "SiteWhitelist": [
+          "T1_US_FNAL_Disk",
+          "T2_US_Nebraska",
+          "T1_DE_KIT_Disk",
+          "T1_RU_JINR_Disk"
+        ]
+      }
+    },
+    "resize": "auto"
+  },
+  "RunIISummer20UL16NanoAODAPVv9": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "RunIISummer20UL18NanoAOD": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.99,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "MiniAODHI15Data": {
+    "go": true,
+    "lumisize": -1,
+    "parameters": {
+      "MergedLFNBase": "/store/himc",
+      "SiteBlacklist": [
+        "T1_US_FNAL",
+        "T2_US_Purdue",
+        "T2_US_Caltech",
+        "T2_US_Florida",
+        "T2_US_Nebraska",
+        "T2_US_UCSD",
+        "T2_US_Wisconsin"
+      ]
+    },
+    "fractionpass": 1.0,
+    "resize": "auto"
+  },
+  "Commission22MiniAOD": {
+    "go": true,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T1_ES_PIC",
+      "T1_FR_CCIN2P3",
+      "T1_IT_CNAF",
+      "T1_RU_JINR",
+      "T2_AT_Vienna",
+      "T2_BE_IIHE",
+      "T2_BE_UCL",
+      "T2_CN_Beijing",
+      "T2_DE_RWTH",
+      "T2_EE_Estonia",
+      "T2_FI_HIP",
+      "T2_FR_GRIF_LLR",
+      "T2_FR_IPHC",
+      "T2_GR_Ioannina",
+      "T2_HU_Budapest",
+      "T2_IT_Bari",
+      "T2_IT_Legnaro",
+      "T2_IT_Pisa",
+      "T2_IT_Rome",
+      "T2_KR_KISTI",
+      "T2_PK_NCP",
+      "T2_PL_Swierk",
+      "T2_PT_NCG_Lisbon",
+      "T2_RU_IHEP",
+      "T2_RU_INR",
+      "T2_RU_ITEP",
+      "T2_RU_JINR",
+      "T2_RU_SINP",
+      "T2_TR_METU",
+      "T2_UA_KIPT",
+      "T2_UK_London_IC",
+      "T2_UK_SGrid_RALPP",
+      "T2_US_Purdue",
+      "T2_US_Vanderbilt"
+    ]
+  },
+  "GenericGSmearS": {
+    "go": true,
+    "partial_copy": 0.001,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T1_ES_PIC",
+      "T1_FR_CCIN2P3",
+      "T2_CN_Beijing",
+      "T2_DE_RWTH",
+      "T2_FR_IPHC",
+      "T2_KR_KISTI",
+      "T2_PT_NCG_Lisbon",
+      "T2_RU_IHEP",
+      "T2_UK_SGrid_RALPP",
+      "T2_TR_METU",
+      "T2_FI_HIP",
+      "T2_RU_INR"
+    ]
+  },
+  "RunIISummer20UL18RECO": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "HINPbPbAutumn18wmLHEGS": {
+    "parameters": {
+      "MergedLFNBase": "/store/himc",
+      "SiteBlacklist": [
+        "T1_US_FNAL",
+        "T2_US_Purdue",
+        "T2_US_Caltech",
+        "T2_US_Florida",
+        "T2_US_Nebraska",
+        "T2_US_UCSD",
+        "T2_US_Wisconsin",
+        "T2_CH_CERN"
+      ]
+    },
+    "maxcopies": 1,
+    "custodial": "T1_FR_CCIN2P3_MSS",
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "tune": true
+  },
+  "RunIIpp5Spring18MiniAOD": {
+    "go": true,
+    "lumisize": -1,
+    "parameters": {
+      "MergedLFNBase": "/store/himc",
+      "SiteBlacklist": [
+        "T1_US_FNAL",
+        "T2_US_Purdue",
+        "T2_US_Caltech",
+        "T2_US_Florida",
+        "T2_US_Nebraska",
+        "T2_US_UCSD",
+        "T2_US_Wisconsin"
+      ]
+    },
+    "fractionpass": 0.95,
+    "resize": "auto"
+  },
+  "RunIISpring21UL17FSGSPremix": {
+    "secondary_AAA": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ],
+    "go": true
+  },
+  "RunIILowPUSummer20UL17GEN": {
+    "go": true,
+    "fractionpass": 0.95
+  },
+  "RunIISummer19UL16NanoAODAPVv2": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.99,
+    "maxcopies": 1,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ]
+  },
+  "RunIISummer19UL18MiniAODv2": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.99,
+    "resize": "auto",
+    "maxcopies": 1
+  },
+  "Run3Summer21GS": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "maxcopies": 1,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ]
+  },
+  "RunIILowPUSummer20UL17DR": {
+    "fractionpass": 0.95,
+    "secondaries": {
+      "/MinBias_TuneCP5_13TeV-pythia8/RunIISummer20UL17SIM-106X_mc2017_realistic_v6-v2/GEN-SIM": {
+        "SiteWhitelist": [
+          "T1_IT_CNAF_Disk"
+        ]
+      }
+    }
+  },
+  "RunIISpring21UL18FSwmLHEGSDR": {
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ],
+    "go": true,
+    "secondaries": {
+      "/MinBias_TuneCP5_13TeV-pythia8/RunIISpring21UL18FSGSPremix-PUFSUL18CP5_106X_upgrade2018_realistic_v16-v1/GEN-SIM-RECO": {
+        "SiteWhitelist": [
+          "T1_RU_JINR_Disk"
+        ]
+      }
+    }
+  },
+  "RunIISummer20UL16GENSIMAPV": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "maxcopies": 1
+  },
+  "LowPU2010": {
+    "maxcopies": 1,
+    "lumisize": -1,
+    "resize": "auto",
+    "fractionpass": 0.95,
+    "go": true,
+    "tune": true
+  },
+  "RunIISummer20UL16NanoAOD": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.99,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "RunIIAutumn18DR": {
+    "maxcopies": 1,
+    "lumisize": -1,
+    "resize": "auto",
+    "fractionpass": 0.95,
+    "go": true,
+    "tune": true
+  },
+  "pPb816Spring16pLHE": {
+    "go": true,
+    "tune": true,
+    "custodial": "T1_FR_CCIN2P3_MSS",
+    "fractionpass": 0.95,
+    "parameters": {
+      "MergedLFNBase": "/store/himc"
+    }
+  },
+  "RunIISpring21UL17FSwmLHEGSPremix": {
+    "secondary_AAA": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ],
+    "go": true
+  },
+  "Run3Winter23NanoAOD": {
+    "go": true,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T1_ES_PIC",
+      "T1_FR_CCIN2P3",
+      "T2_CN_Beijing",
+      "T2_DE_RWTH",
+      "T2_FR_IPHC",
+      "T2_KR_KISTI",
+      "T2_PT_NCG_Lisbon",
+      "T2_RU_IHEP",
+      "T2_UK_SGrid_RALPP",
+      "T2_TR_METU",
+      "T2_FI_HIP",
+      "T2_RU_INR"
+    ]
+  },
+  "NanoAODv9UL16Data": {
+    "maxcopies": 1,
+    "lumisize": -1,
+    "resize": "auto",
+    "fractionpass": 1,
+    "go": true,
+    "tune": true
+  },
+  "RunIISummer20UL18NanoAODv9": {
+    "maxcopies": 1,
+    "lumisize": -1,
+    "resize": "auto",
+    "fractionpass": 0.95,
+    "go": true,
+    "tune": true
+  },
+  "Run3Winter22PbPbRECOMiniAOD": {
+    "lumisize": -1,
+    "parameters": {
+      "MergedLFNBase": "/store/himc",
+      "SiteBlacklist": [
+        "T1_ES_PIC",
+        "T1_FR_CCIN2P3",
+        "T2_CN_Beijing",
+        "T2_DE_RWTH",
+        "T2_FR_IPHC",
+        "T2_KR_KISTI",
+        "T2_PT_NCG_Lisbon",
+        "T2_RU_IHEP",
+        "T2_UK_SGrid_RALPP",
+        "T2_TR_METU",
+        "T2_FI_HIP",
+        "T2_RU_INR"
+      ]
+    },
+    "fractionpass": 0.95,
+    "resize": "auto"
+  },
+  "Run3Summer22NanoAODv11": {
+    "go": true,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T1_ES_PIC",
+      "T1_FR_CCIN2P3",
+      "T2_CN_Beijing",
+      "T2_DE_RWTH",
+      "T2_FR_IPHC",
+      "T2_KR_KISTI",
+      "T2_PT_NCG_Lisbon",
+      "T2_RU_IHEP",
+      "T2_UK_SGrid_RALPP",
+      "T2_TR_METU",
+      "T2_FI_HIP",
+      "T2_RU_INR"
+    ]
+  },
+  "Run3Winter22PbPbNoMixGS": {
+    "go": true,
+    "lumisize": -1,
+    "parameters": {
+      "MergedLFNBase": "/store/himc",
+      "SiteBlacklist": [
+        "T1_ES_PIC",
+        "T1_FR_CCIN2P3",
+        "T2_CN_Beijing",
+        "T2_DE_RWTH",
+        "T2_FR_IPHC",
+        "T2_KR_KISTI",
+        "T2_PT_NCG_Lisbon",
+        "T2_RU_IHEP",
+        "T2_UK_SGrid_RALPP",
+        "T2_TR_METU",
+        "T2_FI_HIP",
+        "T2_RU_INR"
+      ]
+    },
+    "fractionpass": 0.95,
+    "resize": "auto"
+  },
+  "Run3Winter23MiniAOD": {
+    "go": true,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T1_ES_PIC",
+      "T1_FR_CCIN2P3",
+      "T2_CN_Beijing",
+      "T2_DE_RWTH",
+      "T2_FR_IPHC",
+      "T2_KR_KISTI",
+      "T2_PT_NCG_Lisbon",
+      "T2_RU_IHEP",
+      "T2_UK_SGrid_RALPP",
+      "T2_TR_METU",
+      "T2_FI_HIP",
+      "T2_RU_INR"
+    ]
+  },
+  "RunIISummer20UL18HLT": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "Phase2D80Spring21GS": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "resize": "auto",
+    "maxcopies": 1
+  },
+  "Commission22GS": {
+    "go": true,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T1_ES_PIC",
+      "T1_FR_CCIN2P3",
+      "T1_IT_CNAF",
+      "T1_RU_JINR",
+      "T2_AT_Vienna",
+      "T2_BE_IIHE",
+      "T2_BE_UCL",
+      "T2_CN_Beijing",
+      "T2_DE_RWTH",
+      "T2_EE_Estonia",
+      "T2_FI_HIP",
+      "T2_FR_GRIF_LLR",
+      "T2_FR_IPHC",
+      "T2_GR_Ioannina",
+      "T2_HU_Budapest",
+      "T2_IT_Bari",
+      "T2_IT_Legnaro",
+      "T2_IT_Pisa",
+      "T2_IT_Rome",
+      "T2_KR_KISTI",
+      "T2_PK_NCP",
+      "T2_PL_Swierk",
+      "T2_PT_NCG_Lisbon",
+      "T2_RU_IHEP",
+      "T2_RU_INR",
+      "T2_RU_ITEP",
+      "T2_RU_JINR",
+      "T2_RU_SINP",
+      "T2_TR_METU",
+      "T2_UA_KIPT",
+      "T2_UK_London_IC",
+      "T2_UK_SGrid_RALPP",
+      "T2_US_Purdue",
+      "T2_US_Vanderbilt"
+    ]
+  },
+  "RunIISpring16FSSIMDRPremix": {
+    "lumisize": -1,
+    "secondaries": {
+      "/Neutrino_E-10_gun/RunIISummer16FSPremix-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v4-v1/GEN-SIM-DIGI-RAW": {
+        "SiteWhitelist": [
+          "T2_US_Purdue",
+          "T1_DE_KIT_Disk"
+        ],
+        "secondary_AAA": true
+      }
+    },
+    "fractionpass": 0.95,
+    "parameters": {
+      "EventsPerLumi": "x2"
+    },
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ]
+  },
+  "RunIISummer20UL17pp5TeVDIGI": {
+    "parameters": {
+      "MergedLFNBase": "/store/himc",
+      "SiteBlacklist": [
+        "T1_US_FNAL",
+        "T2_US_Purdue",
+        "T2_US_Caltech",
+        "T2_US_Florida",
+        "T2_US_Nebraska",
+        "T2_US_UCSD",
+        "T2_US_Wisconsin"
+      ]
+    },
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "secondaries": {
+      "/MinBias_TuneCP5_5TeV-pythia8/RunIISummer20UL17pp5TeVGS-106X_mc2017_realistic_forppRef5TeV_v3-v1/GEN-SIM": {
+        "SiteWhitelist": [
+          "T2_DE_DESY"
+        ]
+      }
+    },
+    "resize": "auto"
+  },
+  "RunIIAutumn18DRPremix": {
+    "secondary_AAA": true,
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ],
+    "go": true,
+    "overflow": {},
+    "secondaries": {
+      "/Neutrino_E-10_gun/RunIISummer17PrePremix-PUAutumn18_102X_upgrade2018_realistic_v15-v1/GEN-SIM-DIGI-RAW": {
+        "SiteWhitelist": [
+          "T1_US_FNAL_Disk"
+        ]
+      }
+    },
+    "resize": "auto"
+  },
+  "Run3Summer22DR": {
+    "go": true,
+    "SiteBlacklist": [
+      "T1_ES_PIC",
+      "T1_FR_CCIN2P3",
+      "T2_CN_Beijing",
+      "T2_DE_RWTH",
+      "T2_FR_IPHC",
+      "T2_KR_KISTI",
+      "T2_PT_NCG_Lisbon",
+      "T2_RU_IHEP",
+      "T2_UK_SGrid_RALPP",
+      "T2_TR_METU",
+      "T2_FI_HIP",
+      "T2_RU_INR"
+    ],
+    "fractionpass": 0.95,
+    "secondaries": {
+      "/MinBias_TuneCP5_13p6TeV-pythia8/Run3Summer22GS-124X_mcRun3_2022_realistic_v10-v1/GEN-SIM": {
+        "SiteWhitelist": [
+          "T1_US_FNAL_Disk",
+          "T2_CH_CERN"
+        ]
+      }
+    }
+  },
+  "RunIISummer20UL16DIGI": {
+    "tune": true,
+    "maxcopies": 1,
+    "partial_copy": 0.95,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "secondaries": {
+      "/MinBias_TuneCP5_13TeV-pythia8/RunIISummer20UL16SIM-106X_mcRun2_asymptotic_v13-v2/GEN-SIM": {
+        "SiteWhitelist": [
+          "T1_US_FNAL_Disk",
+          "T1_IT_CNAF_Disk"
+        ]
+      }
+    },
+    "resize": "auto"
+  },
+  "MiniAODHI18Data": {
+    "maxcopies": 1,
+    "SiteWhitelist": [
+      "T2_US_Vanderbilt"
+    ],
+    "lumisize": -1,
+    "fractionpass": 1.0,
+    "go": true,
+    "resize": "auto"
+  },
+  "RunIIFall17NanoAODv6": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.99,
+    "maxcopies": 1
+  },
+  "Commissioning900GS": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "maxcopies": 1
+  },
+  "RunIIpp5Spring18GSFixBeamspot": {
+    "parameters": {
+      "MergedLFNBase": "/store/himc",
+      "SiteBlacklist": [
+        "T1_US_FNAL",
+        "T2_US_Purdue",
+        "T2_US_Caltech",
+        "T2_US_Florida",
+        "T2_US_Nebraska",
+        "T2_US_UCSD",
+        "T2_US_Wisconsin"
+      ]
+    },
+    "custodial": "T1_FR_CCIN2P3_MSS",
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "tune": true,
+    "secondaries": {
+      "/MinBias_TuneCUETP8M1_2017_5p02TeV-pythia8/RunIIpp5Spring18GS-94X_mc2017_realistic_v10For2017G_v3-v2/GEN-SIM": {
+        "SiteWhitelist": [
+          "T2_CH_CERN",
+          "T2_US_MIT"
+        ]
+      }
+    },
+    "resize": "auto"
+  },
+  "RunIISummer20UL18DIGI": {
+    "tune": true,
+    "maxcopies": 1,
+    "partial_copy": 0.95,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "secondaries": {
+      "/MinBias_TuneCP5_13TeV-pythia8/RunIISummer20UL18SIM-106X_upgrade2018_realistic_v11_L1v1-v2/GEN-SIM": {
+        "SiteWhitelist": [
+          "T1_IT_CNAF_Disk",
+          "T2_CH_CERN"
+        ]
+      }
+    },
+    "resize": "auto"
+  },
+  "RunIISummer19UL17DIGIPremix": {
+    "secondary_AAA": true,
+    "maxcopies": 1,
+    "partial_copy": 0.95,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ],
+    "go": true,
+    "tune": true,
+    "resize": "auto"
+  },
+  "HINPbPbAutumn22GS": {
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T1_ES_PIC",
+      "T1_FR_CCIN2P3",
+      "T2_CN_Beijing",
+      "T2_DE_RWTH",
+      "T2_FR_IPHC",
+      "T2_KR_KISTI",
+      "T2_PT_NCG_Lisbon",
+      "T2_RU_IHEP",
+      "T2_UK_SGrid_RALPP",
+      "T2_TR_METU",
+      "T2_FI_HIP",
+      "T2_RU_INR"
+    ]
+  },
+  "RunIILowPUAutumn18GS": {
+    "lumisize": -1,
+    "resize": "auto",
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T3_US_NERSC"
+    ],
+    "go": true,
+    "tune": true
+  },
+  "RunIISummer16FSPremix": {
+    "parameters": {
+      "EventsPerLumi": "x2"
+    },
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ],
+    "go": true,
+    "secondaries": {
+      "/Neutrino_E-10_gun/RunIISummer16FSPremix-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v4-v1/GEN-SIM-DIGI-RAW": {
+        "SiteWhitelist": [
+          "T2_US_Purdue",
+          "T1_DE_KIT_Disk"
+        ],
+        "secondary_AAA": true
+      }
+    }
+  },
+  "Phase2Spring21DRMiniAOD": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "resize": "auto",
+    "maxcopies": 1
+  },
+  "RunIISummer20UL18SIM": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "RunIIFall17DRStdmix": {
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {
+        "max": 20000
+      }
+    },
+    "resize": "auto"
+  },
+  "RunIISummer20UL18DIGIPremix": {
+    "secondary_AAA": true,
+    "tune": true,
+    "maxcopies": 1,
+    "partial_copy": 0.95,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "secondaries": {
+      "/Neutrino_E-10_gun/RunIISummer20ULPrePremix-UL18_106X_upgrade2018_realistic_v11_L1v1-v2/PREMIX": {
+        "SiteWhitelist": [
+          "T1_US_FNAL_Disk",
+          "T2_CH_CERN"
+        ]
+      }
+    },
+    "resize": "auto"
+  },
+  "HINPbPbWinter16pLHE": {
+    "parameters": {
+      "MergedLFNBase": "/store/himc",
+      "SiteBlacklist": [
+        "T1_US_FNAL",
+        "T2_US_Purdue",
+        "T2_US_Caltech",
+        "T2_US_Florida",
+        "T2_US_Nebraska",
+        "T2_US_UCSD",
+        "T2_US_Wisconsin",
+        "T2_CH_CERN"
+      ]
+    },
+    "maxcopies": 1,
+    "custodial": "T1_FR_CCIN2P3_MSS",
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "tune": true
+  },
+  "RunIISummer20UL18GEN": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "Phase2Fall22pLHEGS": {
+    "go": true,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T1_ES_PIC",
+      "T1_FR_CCIN2P3",
+      "T2_CN_Beijing",
+      "T2_DE_RWTH",
+      "T2_FR_IPHC",
+      "T2_KR_KISTI",
+      "T2_PT_NCG_Lisbon",
+      "T2_RU_IHEP",
+      "T2_UK_SGrid_RALPP",
+      "T2_TR_METU",
+      "T2_FI_HIP",
+      "T2_RU_INR"
+    ]
+  },
+  "RunIILowPUSummer20UL17wmLHEGS": {
+    "go": true,
+    "fractionpass": 0.95
+  },
+  "RunIISummer19UL16RECO": {
+    "secondary_AAA": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "tune": true,
+    "resize": "auto"
+  },
+  "Run3Summer22wmLHEGS": {
+    "go": true,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T1_ES_PIC",
+      "T1_FR_CCIN2P3",
+      "T2_CN_Beijing",
+      "T2_DE_RWTH",
+      "T2_FR_IPHC",
+      "T2_KR_KISTI",
+      "T2_PT_NCG_Lisbon",
+      "T2_RU_IHEP",
+      "T2_UK_SGrid_RALPP",
+      "T2_TR_METU",
+      "T2_FI_HIP",
+      "T2_RU_INR",
+      "T2_US_Caltech"
+    ]
+  },
+  "Run3Winter22PbPbNoMixDIGI": {
+    "go": true,
+    "lumisize": -1,
+    "parameters": {
+      "MergedLFNBase": "/store/himc",
+      "SiteBlacklist": [
+        "T1_ES_PIC",
+        "T1_FR_CCIN2P3",
+        "T2_CN_Beijing",
+        "T2_DE_RWTH",
+        "T2_FR_IPHC",
+        "T2_KR_KISTI",
+        "T2_PT_NCG_Lisbon",
+        "T2_RU_IHEP",
+        "T2_UK_SGrid_RALPP",
+        "T2_TR_METU",
+        "T2_FI_HIP",
+        "T2_RU_INR"
+      ]
+    },
+    "fractionpass": 0.95,
+    "resize": "auto"
+  },
+  "RunIISummer20UL17pp5TeVwmLHEGS": {
+    "go": true,
+    "lumisize": -1,
+    "parameters": {
+      "MergedLFNBase": "/store/himc",
+      "SiteBlacklist": [
+        "T1_US_FNAL",
+        "T2_US_Purdue",
+        "T2_US_Caltech",
+        "T2_US_Florida",
+        "T2_US_Nebraska",
+        "T2_US_UCSD",
+        "T2_US_Wisconsin"
+      ]
+    },
+    "fractionpass": 0.95,
+    "resize": "auto"
+  },
+  "RunIISummer20UL16MiniAODAPV": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "HINPbPbAutumnMiniAOD": {
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T1_ES_PIC",
+      "T1_FR_CCIN2P3",
+      "T2_CN_Beijing",
+      "T2_DE_RWTH",
+      "T2_FR_IPHC",
+      "T2_KR_KISTI",
+      "T2_PT_NCG_Lisbon",
+      "T2_RU_IHEP",
+      "T2_UK_SGrid_RALPP",
+      "T2_TR_METU",
+      "T2_FI_HIP",
+      "T2_RU_INR"
+    ]
+  },
+  "Commissioning900MiniAOD": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "maxcopies": 1
+  },
+  "RunIISummer20UL16HLTAPV": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "RunIIAutumn18NanoAODv7": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.99,
+    "maxcopies": 1
+  },
+  "RunIISummer19UL16DIGI": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "Run3Winter22pLHE": {
+    "go": true,
+    "fractionpass": 0.95
+  },
+  "RunIISummer19UL16HLT": {
+    "secondary_AAA": true,
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "PhaseIISpring22SIM": {
+    "go": true,
+    "fractionpass": 0.95
+  },
+  "SnowmassWinter21wmLHEGEN": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "resize": "auto",
+    "maxcopies": 1
+  },
+  "Run3Winter22NanoAOD": {
+    "go": true,
+    "fractionpass": 0.95
+  },
+  "Run3Winter21wmLHEGS": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "resize": "auto",
+    "maxcopies": 1
+  },
+  "RunIISummer19CosmicDR": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "tune": true,
+    "maxcopies": 1
+  },
+  "RunIIFall17MiniAODv2": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "resize": "auto",
+    "maxcopies": 1
+  },
+  "Phase2HLTTDRWinter20DR": {
+    "lumisize": -1,
+    "maxcopies": 1,
+    "fractionpass": 0.95,
+    "tune": true
+  },
+  "LowPU2010DR42": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "tune": true,
+    "maxcopies": 1
+  },
+  "Run3Summer21MiniAOD": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "maxcopies": 1
+  },
+  "RunIISummer20UL16MiniAODv2": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "Run3Winter20DRMiniAOD": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "resize": "auto",
+    "maxcopies": 1
+  },
+  "RunIISummer20UL17pp5TeVRECO": {
+    "go": true,
+    "lumisize": -1,
+    "parameters": {
+      "MergedLFNBase": "/store/himc",
+      "SiteBlacklist": [
+        "T1_US_FNAL",
+        "T2_US_Purdue",
+        "T2_US_Caltech",
+        "T2_US_Florida",
+        "T2_US_Nebraska",
+        "T2_US_UCSD",
+        "T2_US_Wisconsin"
+      ]
+    },
+    "fractionpass": 0.95,
+    "resize": "auto"
+  },
+  "RunIIFall17pLHE": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "tune": true
+  },
+  "Run3Winter22CosmicGS": {
+    "go": true,
+    "fractionpass": 0.95
+  },
+  "RunIISpring21UL17FSwmLHEGSDR": {
+    "go": true,
+    "lumisize": -1,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ],
+    "fractionpass": 0.95,
+    "maxcopies": 1
+  },
+  "MultiValidationUL17wmLHEGS": {
+    "maxcopies": 1,
+    "lumisize": -1,
+    "resize": "auto",
+    "fractionpass": 0.95,
+    "overflow": {
+      "PU": {}
+    },
+    "tune": true
+  },
+  "MiniAODUL18Data": {
+    "go": true,
+    "lumisize": -1,
+    "resize": "auto",
+    "maxcopies": 1
+  },
+  "Run3Winter22DR": {
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "secondaries": {
+      "/MinBias_TuneCP5_13p6TeV-pythia8/Run3Winter22GS-122X_mcRun3_2021_realistic_v9-v1/GEN-SIM": {
+        "SiteWhitelist": [
+          "T1_US_FNAL_Disk",
+          "T1_ES_PIC_Disk"
+        ]
+      }
+    },
+    "resize": "auto"
+  },
+  "pPb816Summer16DR": {
+    "go": true,
+    "lumisize": -1,
+    "custodial": "T1_FR_CCIN2P3_MSS",
+    "fractionpass": 0.95,
+    "parameters": {
+      "MergedLFNBase": "/store/himc",
+      "SiteBlacklist": [
+        "T1_US_FNAL",
+        "T2_US_Purdue",
+        "T2_US_Caltech",
+        "T2_US_Florida",
+        "T2_US_Nebraska",
+        "T2_US_UCSD",
+        "T2_US_Wisconsin"
+      ]
+    }
+  },
+  "PhaseIISpring22DRMiniAOD": {
+    "go": true,
+    "fractionpass": 0.95,
+    "secondaries": {
+      "/MinBias_TuneCP5_14TeV-pythia8/PhaseIISpring22GS-123X_mcRun4_realistic_v11-v1/GEN-SIM": {
+        "SiteWhitelist": [
+          "T1_US_FNAL_Disk",
+          "T2_CH_CERN"
+        ]
+      }
+    }
+  },
+  "Run3DataHLTGPU": {
+    "go": true,
+    "SiteWhitelist": [
+      "T2_US_Wisconsin"
+    ]
+  },
+  "RunIIpp5Spring18pLHE": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "parameters": {
+      "MergedLFNBase": "/store/himc",
+      "SiteBlacklist": [
+        "T1_US_FNAL",
+        "T2_US_Purdue",
+        "T2_US_Caltech",
+        "T2_US_Florida",
+        "T2_US_Nebraska",
+        "T2_US_UCSD",
+        "T2_US_Wisconsin"
+      ]
+    }
+  },
+  "Run3Summer21pLHE": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "tune": true
+  },
+  "Run3Summer22EEpLHE": {
+    "go": true,
+    "fractionpass": 0.95
+  },
+  "RunIIFall17NanoAODv7": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.99,
+    "maxcopies": 1
+  },
+  "RunIILowPUSummer20UL17GS": {
+    "go": true,
+    "fractionpass": 0.95
+  },
+  "RunIISummer16DR80Premix": {
+    "secondary_AAA": true,
+    "tune": true,
+    "truncate-complete": 0.95,
+    "maxcopies": 1,
+    "partial_copy": 0.95,
+    "NO_NO_fractionpass": {
+      "90000": 0.9
+    },
+    "lumisize": -1,
+    "force-timeout": 7,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ],
+    "go": true,
+    "overflow": {},
+    "secondaries": {
+      "/Neutrino_E-10_gun/RunIISpring15PrePremix-PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v2-v2/GEN-SIM-DIGI-RAW": {
+        "SiteWhitelist": [
+          "T1_US_FNAL_Disk",
+          "T1_RU_JINR_Disk"
+        ]
+      }
+    },
+    "resize": {
+      "minCores": 3,
+      "maxCores": 10,
+      "memoryPerThread": 500
+    },
+    "force-complete": 0.99
+  },
+  "RunIIFall18wmLHEGS": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "tune": true,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ]
+  },
+  "Run3Winter20CosmicDR": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "tune": true,
+    "maxcopies": 1
+  },
+  "RunIISummer20UL16pLHEGENAPV": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "Run3Winter22pLHEGEN": {
+    "go": true,
+    "fractionpass": 0.95
+  },
+  "Phase2HLTTDRWinter20wmLHEGS": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "tune": true,
+    "maxcopies": 1
+  },
+  "RunIISummer20UL17GEN": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "RunIISummer20UL17pp5TeVGS": {
+    "go": true,
+    "lumisize": -1,
+    "parameters": {
+      "MergedLFNBase": "/store/himc",
+      "SiteBlacklist": [
+        "T1_US_FNAL",
+        "T2_US_Purdue",
+        "T2_US_Caltech",
+        "T2_US_Florida",
+        "T2_US_Nebraska",
+        "T2_US_UCSD",
+        "T2_US_Wisconsin"
+      ]
+    },
+    "fractionpass": 0.95,
+    "resize": "auto"
+  },
+  "Run3Winter23wmLHEGS": {
+    "go": true,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T1_ES_PIC",
+      "T1_FR_CCIN2P3",
+      "T2_CN_Beijing",
+      "T2_DE_RWTH",
+      "T2_FR_IPHC",
+      "T2_KR_KISTI",
+      "T2_PT_NCG_Lisbon",
+      "T2_RU_IHEP",
+      "T2_UK_SGrid_RALPP",
+      "T2_TR_METU",
+      "T2_FI_HIP",
+      "T2_RU_INR"
+    ]
+  },
+  "NanoAODUL17Data": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 1,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "Phase2D81Spring21GS": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "resize": "auto",
+    "maxcopies": 1
+  },
+  "Phase2D76Spring21GS": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "resize": "auto",
+    "maxcopies": 1
+  },
+  "Phase2HLTTDRSummer20ReRECO": {
+    "lumisize": -1,
+    "maxcopies": 1,
+    "fractionpass": 0.95,
+    "resize": "auto"
+  },
+  "RunIISummer20UL17pp5TeVHLT": {
+    "go": true,
+    "lumisize": -1,
+    "parameters": {
+      "MergedLFNBase": "/store/himc",
+      "SiteBlacklist": [
+        "T1_US_FNAL",
+        "T2_US_Purdue",
+        "T2_US_Caltech",
+        "T2_US_Florida",
+        "T2_US_Nebraska",
+        "T2_US_UCSD",
+        "T2_US_Wisconsin"
+      ]
+    },
+    "fractionpass": 0.95,
+    "resize": "auto"
+  },
+  "RunIISpring21UL16FSSIMDRPremix": {
+    "secondary_AAA": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ],
+    "go": true
+  },
+  "RunIIWinter15pLHE": {
+    "go": true,
+    "fractionpass": 0.95,
+    "parameters": {
+      "EventsPerLumi": 200
+    }
+  },
+  "RunIISummer19UL17NanoAOD": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.99,
+    "maxcopies": 1,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ]
+  },
+  "HINPbPbAutumn18GSHIMix": {
+    "maxcopies": 1,
+    "MergedLFNBase": "/store/himc",
+    "custodial": "T1_FR_CCIN2P3_MSS",
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T1_US_FNAL",
+      "T2_US_Purdue",
+      "T2_US_Caltech",
+      "T2_US_Florida",
+      "T2_US_Nebraska",
+      "T2_US_UCSD",
+      "T2_US_Wisconsin",
+      "T2_CH_CERN"
+    ],
+    "go": true,
+    "tune": true
+  },
+  "Phase2HLTTDRSummer20ReRECOMiniAOD": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "maxcopies": 1
+  },
+  "HINPbPbAutumn18DR": {
+    "parameters": {
+      "MergedLFNBase": "/store/himc",
+      "SiteBlacklist": [
+        "T1_US_FNAL",
+        "T2_US_Purdue",
+        "T2_US_Caltech",
+        "T2_US_Florida",
+        "T2_US_Nebraska",
+        "T2_US_UCSD",
+        "T2_US_Wisconsin",
+        "T2_CH_CERN",
+        "T2_CH_CERN_HLT",
+        "T2_CH_CERN_P5"
+      ]
+    },
+    "maxcopies": 1,
+    "custodial": "T1_FR_CCIN2P3_MSS",
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "tune": true
+  },
+  "RunIISummer19UL17MiniAODv2": {
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ],
+    "go": true,
+    "resize": "auto"
+  },
+  "Run3Winter22CosmicDR": {
+    "go": true,
+    "fractionpass": 0.95
+  },
+  "RunIISummer20UL17DIGI": {
+    "tune": true,
+    "maxcopies": 1,
+    "partial_copy": 0.95,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "secondaries": {
+      "/MinBias_TuneCP5_13TeV-pythia8/RunIISummer20UL17SIM-106X_mc2017_realistic_v6-v2/GEN-SIM": {
+        "SiteWhitelist": [
+          "T1_IT_CNAF_Disk"
+        ]
+      }
+    },
+    "resize": "auto"
+  },
+  "Phase2HLTTDRWinter20GS": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "tune": true,
+    "maxcopies": 1
+  },
+  "PromptNanoAODv10": {
+    "go": true,
+    "partial_copy": 0.01,
+    "fractionpass": 1,
+    "SiteBlacklist": [
+      "T1_ES_PIC",
+      "T1_FR_CCIN2P3",
+      "T1_IT_CNAF",
+      "T1_RU_JINR",
+      "T2_AT_Vienna",
+      "T2_BE_IIHE",
+      "T2_BE_UCL",
+      "T2_CH_CSCS",
+      "T2_CN_Beijing",
+      "T2_DE_RWTH",
+      "T2_EE_Estonia",
+      "T2_ES_CIEMAT",
+      "T2_FI_HIP",
+      "T2_FR_GRIF_LLR",
+      "T2_FR_IPHC",
+      "T2_GR_Ioannina",
+      "T2_HU_Budapest",
+      "T2_IT_Bari",
+      "T2_IT_Legnaro",
+      "T2_IT_Pisa",
+      "T2_IT_Rome",
+      "T2_KR_KISTI",
+      "T2_PK_NCP",
+      "T2_PL_Swierk",
+      "T2_PT_NCG_Lisbon",
+      "T2_RU_IHEP",
+      "T2_RU_INR",
+      "T2_RU_ITEP",
+      "T2_RU_JINR",
+      "T2_RU_SINP",
+      "T2_TR_METU",
+      "T2_UA_KIPT",
+      "T2_UK_London_IC",
+      "T2_UK_SGrid_RALPP",
+      "T2_US_Purdue",
+      "T2_US_Vanderbilt"
+    ]
+  },
+  "Run3Summer21DRPremix": {
+    "secondary_AAA": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ],
+    "go": true
+  },
+  "RunIISummer20UL16pLHEGEN": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "RunIISummer20UL16SIMAPV": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "HINPbPbWinter16DR": {
+    "go": true,
+    "custodial": "T1_FR_CCIN2P3_MSS",
+    "fractionpass": 0.95,
+    "parameters": {
+      "MergedLFNBase": "/store/himc",
+      "SiteBlacklist": [
+        "T1_US_FNAL",
+        "T2_US_Purdue",
+        "T2_US_Caltech",
+        "T2_US_Florida",
+        "T2_US_Nebraska",
+        "T2_US_UCSD",
+        "T2_US_Wisconsin"
+      ]
+    }
+  },
+  "RunIISummer20UL16wmLHENanoGEN": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "UltraLegacy2018": {
+    "custodial_override": [
+      "DQMIO"
+    ],
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 1,
+    "go": true,
+    "overflow": {}
+  },
+  "RunIISummer19UL16SIM": {
+    "go": true,
+    "lumisize": -1,
+    "tune": true,
+    "fractionpass": 0.95,
+    "resize": "auto"
+  },
+  "RunIILowPUSummer20UL17NanoAODv9": {
+    "fractionpass": 0.95
+  },
+  "RunIILowPUSpring18DR": {
+    "maxcopies": 1,
+    "lumisize": -1,
+    "resize": "auto",
+    "go": true,
+    "tune": true,
+    "fractionpass": 0.95
+  },
+  "Phase2Fall22wmLHEGS": {
+    "go": true,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T1_ES_PIC",
+      "T1_FR_CCIN2P3",
+      "T2_CN_Beijing",
+      "T2_DE_RWTH",
+      "T2_FR_IPHC",
+      "T2_KR_KISTI",
+      "T2_PT_NCG_Lisbon",
+      "T2_RU_IHEP",
+      "T2_UK_SGrid_RALPP",
+      "T2_TR_METU",
+      "T2_FI_HIP",
+      "T2_RU_INR"
+    ]
+  },
+  "RunIISpring21UL17FSGSDR": {
+    "go": true,
+    "lumisize": -1,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ],
+    "fractionpass": 0.95,
+    "maxcopies": 1
+  },
+  "RunIISummer20UL18wmLHENanoGEN": {
+    "maxcopies": 1,
+    "lumisize": -1,
+    "resize": "auto",
+    "fractionpass": 0.95,
+    "overflow": {
+      "PU": {}
+    },
+    "tune": true
+  },
+  "RunIISpring22UL16FSwmLHEGSPremix": {
+    "secondary_AAA": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ],
+    "go": true
+  },
+  "RunIIFall17GS": {
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5",
+      "T2_US_Caltech",
+      "T2_CH_CSCS"
+    ],
+    "go": true,
+    "tune": true,
+    "resize": "auto",
+    "force-complete": 0.99
+  },
+  "Run3Summer22EEwmLHEGS": {
+    "go": true,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T1_ES_PIC",
+      "T1_FR_CCIN2P3",
+      "T2_CN_Beijing",
+      "T2_DE_RWTH",
+      "T2_FR_IPHC",
+      "T2_KR_KISTI",
+      "T2_PT_NCG_Lisbon",
+      "T2_RU_IHEP",
+      "T2_UK_SGrid_RALPP",
+      "T2_TR_METU",
+      "T2_FI_HIP",
+      "T2_RU_INR",
+      "T2_US_Caltech"
+    ]
+  },
+  "RunIISummer19UL16NanoAOD": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.99,
+    "maxcopies": 1,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ]
+  },
+  "RunIISummer20UL18pLHEGEN": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "Phase2Fall22GS": {
+    "go": true,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T1_ES_PIC",
+      "T1_FR_CCIN2P3",
+      "T2_CN_Beijing",
+      "T2_DE_RWTH",
+      "T2_FR_IPHC",
+      "T2_KR_KISTI",
+      "T2_PT_NCG_Lisbon",
+      "T2_RU_IHEP",
+      "T2_UK_SGrid_RALPP",
+      "T2_TR_METU",
+      "T2_FI_HIP",
+      "T2_RU_INR"
+    ]
+  },
+  "RunIISummer20UL16DIGIPremix": {
+    "secondary_AAA": true,
+    "tune": true,
+    "maxcopies": 1,
+    "partial_copy": 0.95,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "secondaries": {
+      "/Neutrino_E-10_gun/RunIISummer20ULPrePremix-UL16_106X_mcRun2_asymptotic_v13-v1/PREMIX": {
+        "SiteWhitelist": [
+          "T1_US_FNAL_Disk",
+          "T2_CH_CERN"
+        ]
+      }
+    },
+    "resize": "auto"
+  },
+  "RunIISummer20UL17HLT": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "RunIISummer20UL17pp5TeVDR": {
+    "parameters": {
+      "MergedLFNBase": "/store/himc",
+      "SiteBlacklist": [
+        "T1_US_FNAL",
+        "T2_US_Purdue",
+        "T2_US_Caltech",
+        "T2_US_Florida",
+        "T2_US_Nebraska",
+        "T2_US_UCSD",
+        "T2_US_Wisconsin"
+      ]
+    },
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "secondaries": {
+      "/MinBias_TuneCP5_5TeV-pythia8/RunIISummer20UL17pp5TeVGS-106X_mc2017_realistic_forppRef5TeV_v3-v1/GEN-SIM": {
+        "SiteWhitelist": [
+          "T2_DE_DESY"
+        ]
+      }
+    },
+    "resize": "auto"
+  },
+  "HINPbPbAutumn18wmLHEGSHIMix": {
+    "maxcopies": 1,
+    "MergedLFNBase": "/store/himc",
+    "custodial": "T1_FR_CCIN2P3_MSS",
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T1_US_FNAL",
+      "T2_US_Purdue",
+      "T2_US_Caltech",
+      "T2_US_Florida",
+      "T2_US_Nebraska",
+      "T2_US_UCSD",
+      "T2_US_Wisconsin",
+      "T2_CH_CERN"
+    ],
+    "go": true,
+    "tune": true
+  },
+  "RunIIAutumn18NanoAODv6": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.99,
+    "maxcopies": 1
+  },
+  "Run3Summer22EEpLHEGS": {
+    "go": true,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T1_ES_PIC",
+      "T1_FR_CCIN2P3",
+      "T2_CN_Beijing",
+      "T2_DE_RWTH",
+      "T2_FR_IPHC",
+      "T2_KR_KISTI",
+      "T2_PT_NCG_Lisbon",
+      "T2_RU_IHEP",
+      "T2_UK_SGrid_RALPP",
+      "T2_TR_METU",
+      "T2_FI_HIP",
+      "T2_RU_INR"
+    ]
+  },
+  "MultiValidationUL17GS": {
+    "maxcopies": 1,
+    "lumisize": -1,
+    "resize": "auto",
+    "fractionpass": 0.95,
+    "overflow": {
+      "PU": {}
+    },
+    "tune": true
+  },
+  "Phase2HLTTDRSummer20MiniAOD": {
+    "lumisize": -1,
+    "maxcopies": 1,
+    "fractionpass": 0.95,
+    "resize": "auto"
+  },
+  "RunIIFall17FSPremix": {
+    "secondary_AAA": true,
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {},
+    "secondaries": {
+      "/Neutrino_E-10_gun/RunIIFall17FSPrePremix-PUMoriond17_94X_mc2017_realistic_v15-v1/GEN-SIM-DIGI-RAW": {
+        "SiteWhitelist": [
+          "T2_CH_CERN"
+        ]
+      }
+    },
+    "resize": "auto"
+  },
+  "RunIISpring21UL18FSwmLHEGSPremix": {
+    "secondary_AAA": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ],
+    "go": true
+  },
+  "RunIISummer20UL18MiniAODv2": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "RunIIpp5Spring18DR": {
+    "parameters": {
+      "MergedLFNBase": "/store/himc",
+      "SiteBlacklist": [
+        "T1_US_FNAL",
+        "T2_US_Purdue",
+        "T2_US_Caltech",
+        "T2_US_Florida",
+        "T2_US_Nebraska",
+        "T2_US_UCSD",
+        "T2_US_Wisconsin"
+      ]
+    },
+    "maxcopies": 1,
+    "custodial": "T1_FR_CCIN2P3_MSS",
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "tune": true,
+    "secondaries": {
+      "/MinBias_TuneCUETP8M1_2017_5p02TeV-pythia8/RunIIpp5Spring18GS-94X_mc2017_realistic_v10For2017G_v3-v2/GEN-SIM": {
+        "SiteWhitelist": [
+          "T2_US_MIT",
+          "T2_CH_CERN"
+        ]
+      }
+    },
+    "resize": "auto"
+  },
+  "Commissioning2020": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.99,
+    "maxcopies": 1
+  },
+  "Commissioning2021": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 1,
+    "maxcopies": 1
+  },
+  "Phase2HLTTDRSummer20L1T": {
+    "maxcopies": 1,
+    "lumisize": -1,
+    "resize": "auto",
+    "fractionpass": 0.95,
+    "go": true,
+    "tune": true
+  },
+  "RunIISummer19UL16MiniAODAPVv2": {
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ],
+    "tune": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "NanoAODv9UL17Data": {
+    "maxcopies": 1,
+    "lumisize": -1,
+    "resize": "auto",
+    "fractionpass": 1,
+    "go": true,
+    "tune": true
+  },
+  "Run3Summer22EEDRPremix": {
+    "go": true,
+    "SiteBlacklist": [
+      "T1_ES_PIC",
+      "T1_FR_CCIN2P3",
+      "T2_CN_Beijing",
+      "T2_DE_RWTH",
+      "T2_FR_IPHC",
+      "T2_KR_KISTI",
+      "T2_PT_NCG_Lisbon",
+      "T2_RU_IHEP",
+      "T2_UK_SGrid_RALPP",
+      "T2_TR_METU",
+      "T2_FI_HIP",
+      "T2_RU_INR"
+    ],
+    "secondary_AAA": true,
+    "fractionpass": 0.95,
+    "secondaries": {
+      "/Neutrino_E-10_gun/Run3Summer21PrePremix-Summer22_124X_mcRun3_2022_realistic_v11-v2/PREMIX": {
+        "SiteWhitelist": [
+          "T1_US_FNAL_Disk",
+          "T2_CH_CERN"
+        ]
+      }
+    }
+  },
+  "Run3Summer22GS": {
+    "go": true,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T1_ES_PIC",
+      "T1_FR_CCIN2P3",
+      "T2_CN_Beijing",
+      "T2_DE_RWTH",
+      "T2_FR_IPHC",
+      "T2_KR_KISTI",
+      "T2_PT_NCG_Lisbon",
+      "T2_RU_IHEP",
+      "T2_UK_SGrid_RALPP",
+      "T2_TR_METU",
+      "T2_FI_HIP",
+      "T2_RU_INR"
+    ]
+  },
+  "RunIISummer16NanoAODv7": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.99,
+    "maxcopies": 1
+  },
+  "RunIISummer16NanoAODv6": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.99,
+    "maxcopies": 1
+  },
+  "RunIIFall17wmLHEGS": {
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ],
+    "go": true,
+    "overflow": {
+      "LHE": {
+        "site_list": "sites_AAA"
+      }
+    },
+    "tune": true,
+    "force-complete": 0.99
+  },
+  "RunIISummer19UL16MiniAOD": {
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ],
+    "go": true,
+    "resize": "auto"
+  },
+  "RunIISummer20UL17wmLHENanoGEN": {
+    "maxcopies": 1,
+    "lumisize": -1,
+    "resize": "auto",
+    "fractionpass": 0.95,
+    "overflow": {
+      "PU": {}
+    },
+    "tune": true
+  },
+  "HINPbPbAutumn18GS": {
+    "parameters": {
+      "MergedLFNBase": "/store/himc",
+      "SiteBlacklist": [
+        "T1_US_FNAL",
+        "T2_US_Purdue",
+        "T2_US_Caltech",
+        "T2_US_Florida",
+        "T2_US_Nebraska",
+        "T2_US_UCSD",
+        "T2_US_Wisconsin"
+      ]
+    },
+    "maxcopies": 1,
+    "custodial": "T1_FR_CCIN2P3_MSS",
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "tune": true
+  },
+  "Run3Winter22PbPbpLHE": {
+    "parameters": {
+      "MergedLFNBase": "/store/himc",
+      "SiteBlacklist": [
+        "T1_ES_PIC",
+        "T1_FR_CCIN2P3",
+        "T2_CN_Beijing",
+        "T2_DE_RWTH",
+        "T2_FR_IPHC",
+        "T2_KR_KISTI",
+        "T2_PT_NCG_Lisbon",
+        "T2_RU_IHEP",
+        "T2_UK_SGrid_RALPP",
+        "T2_TR_METU",
+        "T2_FI_HIP",
+        "T2_RU_INR"
+      ]
+    },
+    "lumisize": -1,
+    "resize": "auto",
+    "fractionpass": 0.95,
+    "go": true,
+    "tune": true
+  },
+  "RunIISummer20UL17SIM": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "RunIISummer20UL17pp5TeVpLHE": {
+    "go": true,
+    "lumisize": -1,
+    "parameters": {
+      "MergedLFNBase": "/store/himc",
+      "SiteBlacklist": [
+        "T1_US_FNAL",
+        "T2_US_Purdue",
+        "T2_US_Caltech",
+        "T2_US_Florida",
+        "T2_US_Nebraska",
+        "T2_US_UCSD",
+        "T2_US_Wisconsin"
+      ]
+    },
+    "fractionpass": 0.95,
+    "resize": "auto"
+  },
+  "Run3Summer22EENanoAODv10": {
+    "go": true,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T1_ES_PIC",
+      "T1_FR_CCIN2P3",
+      "T2_CN_Beijing",
+      "T2_DE_RWTH",
+      "T2_FR_IPHC",
+      "T2_KR_KISTI",
+      "T2_PT_NCG_Lisbon",
+      "T2_RU_IHEP",
+      "T2_UK_SGrid_RALPP",
+      "T2_TR_METU",
+      "T2_FI_HIP",
+      "T2_RU_INR"
+    ]
+  },
+  "Run3Summer22EENanoAODv11": {
+    "go": true,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T1_ES_PIC",
+      "T1_FR_CCIN2P3",
+      "T2_CN_Beijing",
+      "T2_DE_RWTH",
+      "T2_FR_IPHC",
+      "T2_KR_KISTI",
+      "T2_PT_NCG_Lisbon",
+      "T2_RU_IHEP",
+      "T2_UK_SGrid_RALPP",
+      "T2_TR_METU",
+      "T2_FI_HIP",
+      "T2_RU_INR"
+    ]
+  },
+  "RunIISummer20UL16RECOAPV": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "MiniAODUL17Data": {
+    "go": true,
+    "lumisize": -1,
+    "resize": "auto",
+    "maxcopies": 1
+  },
+  "Run2016F": {
+    "custodial_override": [
+      "DQMIO"
+    ],
+    "maxcopies": 1,
+    "labels": [
+      "03Feb2017",
+      "15Feb2017",
+      "22Feb2017",
+      "18Apr2017_ver2",
+      "18Apr2017",
+      "07Aug17",
+      "07Dec2018",
+      "28Feb2019",
+      "TrkAPVStudies"
+    ],
+    "fractionpass": {
+      "all": 1.0,
+      "DQMIO": {
+        "/JetHT/": 0.95,
+        "all": 0.9,
+        "/SinglePhoton": 0.95,
+        "/SingleMuon/": 0.95,
+        "/ZeroBias/": 0.95
+      }
+    },
+    "go": true,
+    "overflow": {},
+    "resize": "auto"
+  },
+  "Run3Winter23Reco": {
+    "go": true,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T1_ES_PIC",
+      "T1_FR_CCIN2P3",
+      "T2_CN_Beijing",
+      "T2_DE_RWTH",
+      "T2_FR_IPHC",
+      "T2_KR_KISTI",
+      "T2_PT_NCG_Lisbon",
+      "T2_RU_IHEP",
+      "T2_UK_SGrid_RALPP",
+      "T2_TR_METU",
+      "T2_FI_HIP",
+      "T2_RU_INR"
+    ]
+  },
+  "RunIISummer20UL16NanoAODv2": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.99,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "Run3Winter22NanoAODv10": {
+    "fractionpass": 0.95
+  },
+  "Run3Summer21PrePremix": {
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ],
+    "go": true,
+    "secondaries": {
+      "/MinBias_TuneCP5_13p6TeV-pythia8/Run3Winter22GS-122X_mcRun3_2021_realistic_v9-v1/GEN-SIM": {
+        "SiteWhitelist": [
+          "T1_US_FNAL_Disk",
+          "T1_ES_PIC_Disk"
+        ]
+      },
+      "/MinBias_TuneCP5_13p6TeV-pythia8/Run3Winter23GS-126X_mcRun3_2023_forPU65_v1-v1/GEN-SIM": {
+        "SiteWhitelist": [
+          "T1_US_FNAL_Disk",
+          "T2_CH_CERN"
+        ]
+      },
+      "/MinBias_TuneCP5_13p6TeV-pythia8/Run3Summer22GS-124X_mcRun3_2022_realistic_v10-v1/GEN-SIM": {
+        "SiteWhitelist": [
+          "T2_CH_CERN",
+          "T1_US_FNAL_Disk"
+        ]
+      }
+    }
+  },
+  "Run3Summer22EEMiniAODv3": {
+    "go": true,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T1_ES_PIC",
+      "T1_FR_CCIN2P3",
+      "T2_CN_Beijing",
+      "T2_DE_RWTH",
+      "T2_FR_IPHC",
+      "T2_KR_KISTI",
+      "T2_PT_NCG_Lisbon",
+      "T2_RU_IHEP",
+      "T2_UK_SGrid_RALPP",
+      "T2_TR_METU",
+      "T2_FI_HIP",
+      "T2_RU_INR"
+    ]
+  },
+  "pp502Fall15": {
+    "go": true,
+    "custodial": "T1_FR_CCIN2P3_MSS",
+    "fractionpass": 0.95,
+    "parameters": {
+      "MergedLFNBase": "/store/himc",
+      "SiteBlacklist": [
+        "T1_US_FNAL",
+        "T2_US_Purdue",
+        "T2_US_Caltech",
+        "T2_US_Florida",
+        "T2_US_Nebraska",
+        "T2_US_UCSD",
+        "T2_US_Wisconsin",
+        "T2_CH_CERN"
+      ]
+    }
+  },
+  "UltraLegacy2017": {
+    "custodial_override": [
+      "DQMIO"
+    ],
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 1,
+    "go": true,
+    "overflow": {}
+  },
+  "RunIIFall17FSPrePremix": {
+    "go": true,
+    "lumisize": -1,
+    "secondaries": {
+      "/MinBias_TuneCP5_13TeV-pythia8/RunIISpring21UL18FSGSPremix-PUFSUL18CP5_106X_upgrade2018_realistic_v16-v1/GEN-SIM-RECO": {
+        "SiteWhitelist": [
+          "T1_RU_JINR_Disk"
+        ]
+      }
+    },
+    "fractionpass": 0.95,
+    "maxcopies": 1
+  },
+  "RunIISummer20UL16DIGIPremixAPV": {
+    "secondary_AAA": true,
+    "tune": true,
+    "maxcopies": 1,
+    "partial_copy": 0.95,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "secondaries": {
+      "/Neutrino_E-10_gun/RunIISummer20ULPrePremix-UL16_106X_mcRun2_asymptotic_v13-v1/PREMIX": {
+        "SiteWhitelist": [
+          "T1_US_FNAL_Disk",
+          "T2_CH_CERN"
+        ]
+      }
+    },
+    "resize": "auto"
+  },
+  "RunIISummer20UL16HLT": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "RunIISummer19UL16NanoAODAPV": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.99,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ],
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "RunIIpp5Spring18GS": {
+    "parameters": {
+      "MergedLFNBase": "/store/himc",
+      "SiteBlacklist": [
+        "T1_US_FNAL",
+        "T2_US_Purdue",
+        "T2_US_Caltech",
+        "T2_US_Florida",
+        "T2_US_Nebraska",
+        "T2_US_UCSD",
+        "T2_US_Wisconsin"
+      ]
+    },
+    "custodial": "T1_FR_CCIN2P3_MSS",
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "tune": true,
+    "resize": "auto"
+  },
+  "Run3Winter22DRPremix": {
+    "secondary_AAA": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "secondaries": {
+      "/Neutrino_E-10_gun/Run3Summer21PrePremix-Winter22_122X_mcRun3_2021_realistic_v9-v1/PREMIX": {
+        "SiteWhitelist": [
+          "T1_US_FNAL_Disk",
+          "T2_CH_CERN"
+        ]
+      }
+    },
+    "resize": "auto"
+  },
+  "RunIISummer20UL16wmLHEGENAPV": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "NanoAODUL16Data": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 1,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "RunIISummer20UL16wmLHEGEN": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "RunIISpring21UL16FSSIMDR": {
+    "go": true,
+    "lumisize": -1,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ],
+    "fractionpass": 0.95,
+    "maxcopies": 1
+  },
+  "RunIISummer20UL17NanoAOD": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.99,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "RunIISpring22UL18FSwmLHEGSPremix": {
+    "secondary_AAA": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ],
+    "go": true
+  },
+  "HiFall15": {
+    "go": true,
+    "custodial": "T1_FR_CCIN2P3_MSS",
+    "fractionpass": 0.95,
+    "parameters": {
+      "MergedLFNBase": "/store/himc",
+      "SiteBlacklist": [
+        "T1_US_FNAL",
+        "T2_US_Purdue",
+        "T2_US_Caltech",
+        "T2_US_Florida",
+        "T2_US_Nebraska",
+        "T2_US_UCSD",
+        "T2_US_Wisconsin"
+      ]
+    }
+  },
+  "RunIIpp5Spring18wmLHEGS": {
+    "parameters": {
+      "MergedLFNBase": "/store/himc",
+      "SiteBlacklist": [
+        "T1_US_FNAL",
+        "T2_US_Purdue",
+        "T2_US_Caltech",
+        "T2_US_Florida",
+        "T2_US_Nebraska",
+        "T2_US_UCSD",
+        "T2_US_Wisconsin"
+      ]
+    },
+    "custodial": "T1_FR_CCIN2P3_MSS",
+    "lumisize": -1,
+    "force-complete": 0.99,
+    "go": true,
+    "tune": true,
+    "fractionpass": 0.95
+  },
+  "RunIISummer20UL17wmLHEGEN": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "Run3Winter22PbPbGS": {
+    "lumisize": -1,
+    "parameters": {
+      "MergedLFNBase": "/store/himc",
+      "SiteBlacklist": [
+        "T1_ES_PIC",
+        "T1_FR_CCIN2P3",
+        "T2_CN_Beijing",
+        "T2_DE_RWTH",
+        "T2_FR_IPHC",
+        "T2_KR_KISTI",
+        "T2_PT_NCG_Lisbon",
+        "T2_RU_IHEP",
+        "T2_UK_SGrid_RALPP",
+        "T2_TR_METU",
+        "T2_FI_HIP",
+        "T2_RU_INR"
+      ]
+    },
+    "fractionpass": 0.95,
+    "resize": "auto"
+  },
+  "RunIISummer20UL16DIGIAPV": {
+    "tune": true,
+    "maxcopies": 1,
+    "partial_copy": 0.95,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "secondaries": {
+      "/MinBias_TuneCP5_13TeV-pythia8/RunIISummer20UL16SIM-106X_mcRun2_asymptotic_v13-v2/GEN-SIM": {
+        "SiteWhitelist": [
+          "T1_US_FNAL_Disk",
+          "T1_IT_CNAF_Disk"
+        ]
+      }
+    },
+    "resize": "auto"
+  },
+  "NANOAODULDataProd": {
+    "go": true,
+    "lumisize": -1,
+    "maxcopies": 1
+  },
+  "RunIISummer20UL17GENSIM": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "maxcopies": 1
+  },
+  "RunIISummer19UL18MiniAOD": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.99,
+    "resize": "auto",
+    "maxcopies": 1
+  },
+  "RunIISummer20UL16GEN": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "RunIISummer19UL16GEN": {
+    "go": true,
+    "lumisize": -1,
+    "tune": true,
+    "fractionpass": 0.95,
+    "resize": "auto"
+  },
+  "RunIISummer20UL17NanoAODv9": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "RunIISummer15wmLHEGS": {
+    "parameters": {
+      "EventsPerLumi": "x2",
+      "MaxMergeEvents": 4000000
+    },
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ],
+    "go": true,
+    "tune": true,
+    "resize": "auto",
+    "force-complete": 0.99
+  },
+  "Run3Winter23DigiPremix": {
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T1_ES_PIC",
+      "T1_FR_CCIN2P3",
+      "T2_CN_Beijing",
+      "T2_DE_RWTH",
+      "T2_FR_IPHC",
+      "T2_KR_KISTI",
+      "T2_PT_NCG_Lisbon",
+      "T2_RU_IHEP",
+      "T2_UK_SGrid_RALPP",
+      "T2_TR_METU",
+      "T2_FI_HIP",
+      "T2_RU_INR"
+    ]
+  },
+  "RunIISummer15GS": {
+    "tune": true,
+    "parameters": {
+      "EventsPerLumi": "x2"
+    },
+    "lumisize": 1000,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T2_US_Caltech",
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ],
+    "go": true,
+    "overflow": {
+      "LHE": {
+        "site_list": "sites_AAA"
+      }
+    },
+    "resize": "auto",
+    "force-complete": 0.99
+  },
+  "HINPbPbWinter16wmLHEGS": {
+    "parameters": {
+      "MergedLFNBase": "/store/himc",
+      "SiteBlacklist": [
+        "T1_US_FNAL",
+        "T2_US_Purdue",
+        "T2_US_Caltech",
+        "T2_US_Florida",
+        "T2_US_Nebraska",
+        "T2_US_UCSD",
+        "T2_US_Wisconsin",
+        "T2_CH_CERN"
+      ]
+    },
+    "maxcopies": 1,
+    "custodial": "T1_FR_CCIN2P3_MSS",
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "tune": true
+  },
+  "RunIISummer20UL17NanoAODv2": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.99,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "RunIISpring21UL18FSSIMDR": {
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ],
+    "go": true,
+    "secondaries": {
+      "/MinBias_TuneCP5_13TeV-pythia8/RunIISpring21UL18FSGSPremix-PUFSUL18CP5_106X_upgrade2018_realistic_v16-v1/GEN-SIM-RECO": {
+        "SiteWhitelist": [
+          "T1_RU_JINR_Disk"
+        ]
+      }
+    }
+  },
+  "Run3Winter22GS": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "resize": "auto",
+    "maxcopies": 1
+  },
+  "SnowmassWinter21GEN": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "resize": "auto",
+    "maxcopies": 1
+  },
+  "Run3Winter20CosmicGS": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "tune": true,
+    "maxcopies": 1
+  },
+  "NanoAODv9UL18Data": {
+    "maxcopies": 1,
+    "lumisize": -1,
+    "resize": "auto",
+    "fractionpass": 1,
+    "go": true,
+    "tune": true
+  },
+  "HINppWinter16wmLHEGS": {
+    "parameters": {
+      "MergedLFNBase": "/store/himc",
+      "SiteBlacklist": [
+        "T1_US_FNAL",
+        "T2_US_Purdue",
+        "T2_US_Caltech",
+        "T2_US_Florida",
+        "T2_US_Nebraska",
+        "T2_US_UCSD",
+        "T2_US_Wisconsin",
+        "T2_CH_CERN"
+      ]
+    },
+    "maxcopies": 1,
+    "custodial": "T1_FR_CCIN2P3_MSS",
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "tune": true
+  },
+  "RunIILowPUAutumn18DR": {
+    "maxcopies": 1,
+    "lumisize": -1,
+    "resize": "auto",
+    "fractionpass": 0.95,
+    "go": true,
+    "tune": true
+  },
+  "RunIISummer20UL17MiniAOD": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "Run3Winter22PbPbDIGI": {
+    "lumisize": -1,
+    "parameters": {
+      "MergedLFNBase": "/store/himc",
+      "SiteBlacklist": [
+        "T1_ES_PIC",
+        "T1_FR_CCIN2P3",
+        "T2_CN_Beijing",
+        "T2_DE_RWTH",
+        "T2_FR_IPHC",
+        "T2_KR_KISTI",
+        "T2_PT_NCG_Lisbon",
+        "T2_RU_IHEP",
+        "T2_UK_SGrid_RALPP",
+        "T2_TR_METU",
+        "T2_FI_HIP",
+        "T2_RU_INR"
+      ]
+    },
+    "fractionpass": 0.95,
+    "resize": "auto"
+  },
+  "NANOAODRun2DataProd": {
+    "go": true,
+    "lumisize": -1,
+    "maxcopies": 1
+  },
+  "Run3ReReco": {
+    "go": true,
+    "partial_copy": 0.05,
+    "fractionpass": 1,
+    "SiteBlacklist": [
+      "T1_ES_PIC",
+      "T1_FR_CCIN2P3",
+      "T2_CN_Beijing",
+      "T2_DE_RWTH",
+      "T2_FR_IPHC",
+      "T2_KR_KISTI",
+      "T2_PT_NCG_Lisbon",
+      "T2_RU_IHEP",
+      "T2_UK_SGrid_RALPP",
+      "T2_TR_METU",
+      "T2_FI_HIP",
+      "T2_RU_INR"
+    ]
+  },
+  "PhaseIISpring22pLHEGEN": {
+    "go": true,
+    "fractionpass": 0.95
+  },
+  "RunIISummer19UL18NanoAODv2": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.99,
+    "maxcopies": 1
+  },
+  "Run3Winter23Digi": {
+    "go": true,
+    "secondaries": {
+      "/MinBias_TuneCP5_13p6TeV-pythia8/Run3Winter23GS-126X_mcRun3_2023_forPU65_v1-v1/GEN-SIM": {
+        "SiteWhitelist": [
+          "T1_US_FNAL_Disk",
+          "T2_CH_CERN"
+        ]
+      }
+    },
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T1_ES_PIC",
+      "T1_FR_CCIN2P3",
+      "T2_CN_Beijing",
+      "T2_DE_RWTH",
+      "T2_FR_IPHC",
+      "T2_KR_KISTI",
+      "T2_PT_NCG_Lisbon",
+      "T2_RU_IHEP",
+      "T2_UK_SGrid_RALPP",
+      "T2_TR_METU",
+      "T2_FI_HIP",
+      "T2_RU_INR"
+    ]
+  },
+  "GenericNoSmearGEN": {
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T1_ES_PIC",
+      "T1_FR_CCIN2P3",
+      "T2_CN_Beijing",
+      "T2_DE_RWTH",
+      "T2_FR_IPHC",
+      "T2_KR_KISTI",
+      "T2_PT_NCG_Lisbon",
+      "T2_RU_IHEP",
+      "T2_UK_SGrid_RALPP",
+      "T2_TR_METU",
+      "T2_FI_HIP",
+      "T2_RU_INR"
+    ]
+  },
+  "Commissioning900wmLHEGS": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "maxcopies": 1
+  },
+  "PhaseIISpring22GS": {
+    "go": true,
+    "fractionpass": 0.95
+  },
+  "RunIISummer20UL16MiniAODAPVv2": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "RunIISummer20UL18GENSIM": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "maxcopies": 1
+  },
+  "RunIISummer20UL16NanoAODAPV": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.99,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "RunIIAutumn18RECOBParking": {
+    "maxcopies": 1,
+    "lumisize": -1,
+    "resize": "auto",
+    "fractionpass": 0.95,
+    "go": true,
+    "tune": true
+  },
+  "RunIISpring21UL17FSSIMDRPremix": {
+    "secondary_AAA": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ],
+    "go": true
+  },
+  "Run3Winter22SIM": {
+    "go": true,
+    "fractionpass": 0.95
+  },
+  "Run3Summer22EEDR": {
+    "go": true,
+    "SiteBlacklist": [
+      "T1_ES_PIC",
+      "T1_FR_CCIN2P3",
+      "T2_CN_Beijing",
+      "T2_DE_RWTH",
+      "T2_FR_IPHC",
+      "T2_KR_KISTI",
+      "T2_PT_NCG_Lisbon",
+      "T2_RU_IHEP",
+      "T2_UK_SGrid_RALPP",
+      "T2_TR_METU",
+      "T2_FI_HIP",
+      "T2_RU_INR"
+    ],
+    "fractionpass": 0.95,
+    "secondaries": {
+      "/MinBias_TuneCP5_13p6TeV-pythia8/Run3Summer22GS-124X_mcRun3_2022_realistic_v10-v1/GEN-SIM": {
+        "SiteWhitelist": [
+          "T1_US_FNAL_Disk",
+          "T2_CH_CERN"
+        ]
+      }
+    }
+  },
+  "PhaseIISpring22wmLHEGS": {
+    "go": true,
+    "fractionpass": 0.95
+  },
+  "RunIISummer20UL17MiniAODv2": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "RunIISummer20UL17DIGIPremix": {
+    "secondary_AAA": true,
+    "tune": true,
+    "maxcopies": 1,
+    "partial_copy": 0.95,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "secondaries": {
+      "/Neutrino_E-10_gun/RunIISummer20ULPrePremix-UL17_106X_mc2017_realistic_v6-v3/PREMIX": {
+        "SiteWhitelist": [
+          "T2_CH_CERN",
+          "T1_US_FNAL_Disk"
+        ]
+      }
+    },
+    "resize": "auto"
+  },
+  "Run3Winter20GS": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "resize": "auto",
+    "maxcopies": 1
+  },
+  "RunIISummer20UL16GENAPV": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "NanoAODUL18Data": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 1,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "Run3Winter22wmLHEGS": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "resize": "auto",
+    "maxcopies": 1
+  },
+  "RunIISummer20UL18wmLHEGEN": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "RunIILowPUAutumn18MiniAOD": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "resize": "auto",
+    "maxcopies": 1
+  },
+  "Run3Winter22GEN": {
+    "go": true,
+    "fractionpass": 0.95
+  },
+  "RunIISummer20UL18MiniAOD": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "MiniAODUL16Data": {
+    "go": true,
+    "lumisize": -1,
+    "resize": "auto",
+    "maxcopies": 1
+  },
+  "RunIISummer19UL18NanoAOD": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.99,
+    "maxcopies": 1
+  },
+  "Run3DataHLTCPU": {
+    "go": true,
+    "SiteWhitelist": [
+      "T2_US_Wisconsin"
+    ]
+  },
+  "RunIISummer19UL17NanoAODv2": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.99,
+    "maxcopies": 1,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ]
+  },
+  "RunIISummer20UL16RECO": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "Run3Winter22wmLHEGEN": {
+    "go": true,
+    "fractionpass": 0.95
+  },
+  "HINPbPbAutumn18pLHE": {
+    "parameters": {
+      "MergedLFNBase": "/store/himc",
+      "SiteBlacklist": [
+        "T1_US_FNAL",
+        "T2_US_Purdue",
+        "T2_US_Caltech",
+        "T2_US_Florida",
+        "T2_US_Nebraska",
+        "T2_US_UCSD",
+        "T2_US_Wisconsin"
+      ]
+    },
+    "maxcopies": 1,
+    "custodial": "T1_FR_CCIN2P3_MSS",
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "tune": true
+  },
+  "RunIISpring21UL16FSGSDR": {
+    "go": true,
+    "lumisize": -1,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ],
+    "fractionpass": 0.95,
+    "maxcopies": 1
+  },
+  "RunIISpring21UL16FSGSPremixLLPBugFix": {
+    "secondary_AAA": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ],
+    "go": true
+  },
+  "RunIISpring21UL18FSSIMDRPremix": {
+    "secondary_AAA": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ],
+    "go": true
+  },
+  "RunIIFall18pLHE": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "tune": true
+  },
+  "RunIISummer20UL17pp5TeVNanoAODv9": {
+    "go": true,
+    "lumisize": -1,
+    "parameters": {
+      "MergedLFNBase": "/store/himc",
+      "SiteBlacklist": [
+        "T1_US_FNAL",
+        "T2_US_Purdue",
+        "T2_US_Caltech",
+        "T2_US_Florida",
+        "T2_US_Nebraska",
+        "T2_US_UCSD",
+        "T2_US_Wisconsin"
+      ]
+    },
+    "fractionpass": 0.95,
+    "resize": "auto"
+  },
+  "RunIIFall17DRPremix": {
+    "secondary_AAA": true,
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ],
+    "go": true,
+    "overflow": {},
+    "secondaries": {
+      "/Neutrino_E-10_gun/RunIISummer17PrePremix-MCv2_correctPU_94X_mc2017_realistic_v9-v1/GEN-SIM-DIGI-RAW": {
+        "SiteWhitelist": [
+          "T1_US_FNAL_Disk"
+        ]
+      }
+    },
+    "resize": "auto"
+  },
+  "RunIILowPUSpring18wmLHEGS": {
+    "lumisize": -1,
+    "resize": "auto",
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T3_US_NERSC"
+    ],
+    "go": true,
+    "tune": true
+  },
+  "RunIISummer19UL16MiniAODAPV": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ],
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "RunIISummer19UL16NanoAODv2": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.99,
+    "maxcopies": 1,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ]
+  },
+  "Commission22DR": {
+    "go": true,
+    "secondaries": {
+      "/MinBias_TuneCP5_13p6TeV-pythia8/Commission22GS-125X_mcRun3_2022_realistic_v3-v1/GEN-SIM": {
+        "SiteWhitelist": [
+          "T1_US_FNAL_Disk",
+          "T1_DE_KIT_Disk",
+          "T2_CH_CERN"
+        ]
+      }
+    },
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T1_ES_PIC",
+      "T1_FR_CCIN2P3",
+      "T1_IT_CNAF",
+      "T1_RU_JINR",
+      "T2_AT_Vienna",
+      "T2_BE_IIHE",
+      "T2_BE_UCL",
+      "T2_CN_Beijing",
+      "T2_DE_RWTH",
+      "T2_EE_Estonia",
+      "T2_FI_HIP",
+      "T2_FR_GRIF_LLR",
+      "T2_FR_IPHC",
+      "T2_GR_Ioannina",
+      "T2_HU_Budapest",
+      "T2_IT_Bari",
+      "T2_IT_Legnaro",
+      "T2_IT_Pisa",
+      "T2_IT_Rome",
+      "T2_KR_KISTI",
+      "T2_PK_NCP",
+      "T2_PL_Swierk",
+      "T2_PT_NCG_Lisbon",
+      "T2_RU_IHEP",
+      "T2_RU_INR",
+      "T2_RU_ITEP",
+      "T2_RU_JINR",
+      "T2_RU_SINP",
+      "T2_TR_METU",
+      "T2_UA_KIPT",
+      "T2_UK_London_IC",
+      "T2_UK_SGrid_RALPP",
+      "T2_US_Purdue",
+      "T2_US_Vanderbilt"
+    ]
+  },
+  "Run3Winter21DRMiniAOD": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "resize": "auto",
+    "maxcopies": 1
+  },
+  "RunIISummer19CosmicGS": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "tune": true,
+    "SiteBlacklist": [
+      "T3_US_NERSC"
+    ]
+  },
+  "RunIISummer20UL17pLHEGEN": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "RunIILowPUSummer20UL17MiniAODv2": {
+    "fractionpass": 0.95
+  },
+  "Run3Winter22MiniAOD": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "resize": "auto",
+    "maxcopies": 1
+  },
+  "UltraLegacy2016": {
+    "custodial_override": [
+      "DQMIO"
+    ],
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 1,
+    "go": true,
+    "overflow": {}
+  },
+  "RunIIFall18GS": {
+    "lumisize": -1,
+    "resize": "auto",
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T2_CH_CSCS",
+      "T2_US_Caltech",
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ],
+    "go": true,
+    "tune": true
+  },
+  "RunIISummer20UL17RECO": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "Run3Summer22DRPremix": {
+    "go": true,
+    "SiteBlacklist": [
+      "T1_ES_PIC",
+      "T1_FR_CCIN2P3",
+      "T2_CN_Beijing",
+      "T2_DE_RWTH",
+      "T2_FR_IPHC",
+      "T2_KR_KISTI",
+      "T2_PT_NCG_Lisbon",
+      "T2_RU_IHEP",
+      "T2_UK_SGrid_RALPP",
+      "T2_TR_METU",
+      "T2_FI_HIP",
+      "T2_RU_INR"
+    ],
+    "secondary_AAA": true,
+    "fractionpass": 0.95,
+    "secondaries": {
+      "/Neutrino_E-10_gun/Run3Summer21PrePremix-Summer22_124X_mcRun3_2022_realistic_v11-v2/PREMIX": {
+        "SiteWhitelist": [
+          "T1_US_FNAL_Disk",
+          "T2_CH_CERN"
+        ]
+      }
+    }
+  },
+  "Phase2HLTTDRWinter20RECOMiniAOD": {
+    "go": true,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "resize": "auto",
+    "maxcopies": 1
+  },
+  "RunIISummer19UL17MiniAOD": {
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ],
+    "go": true,
+    "resize": "auto"
+  },
+  "RunIISummer20UL17pp5TeVpLHEGS": {
+    "go": true,
+    "lumisize": -1,
+    "parameters": {
+      "MergedLFNBase": "/store/himc",
+      "SiteBlacklist": [
+        "T1_US_FNAL",
+        "T2_US_Purdue",
+        "T2_US_Caltech",
+        "T2_US_Florida",
+        "T2_US_Nebraska",
+        "T2_US_UCSD",
+        "T2_US_Wisconsin"
+      ]
+    },
+    "fractionpass": 0.95,
+    "resize": "auto"
+  },
+  "RunIISummer20UL17pp5TeVMiniAODv2": {
+    "go": true,
+    "lumisize": -1,
+    "parameters": {
+      "MergedLFNBase": "/store/himc",
+      "SiteBlacklist": [
+        "T1_US_FNAL",
+        "T2_US_Purdue",
+        "T2_US_Caltech",
+        "T2_US_Florida",
+        "T2_US_Nebraska",
+        "T2_US_UCSD",
+        "T2_US_Wisconsin"
+      ]
+    },
+    "fractionpass": 0.95,
+    "resize": "auto"
+  },
+  "RunIISpring21UL18FSGSDR": {
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ],
+    "go": true,
+    "secondaries": {
+      "/MinBias_TuneCP5_13TeV-pythia8/RunIISpring21UL18FSGSPremix-PUFSUL18CP5_106X_upgrade2018_realistic_v16-v1/GEN-SIM-RECO": {
+        "SiteWhitelist": [
+          "T1_RU_JINR_Disk"
+        ]
+      }
+    }
+  },
+  "RunIILowPUSummer20UL17SIM": {
+    "fractionpass": 0.95
+  },
+  "RunIISummer19UL16MiniAODv2": {
+    "lumisize": -1,
+    "maxcopies": 1,
+    "fractionpass": 0.95,
+    "resize": "auto",
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ]
+  },
+  "RunIISpring22UL17FSwmLHEGSPremix": {
+    "secondary_AAA": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "SiteBlacklist": [
+      "T2_CH_CERN",
+      "T2_CH_CERN_HLT",
+      "T2_CH_CERN_P5"
+    ],
+    "go": true
+  },
+  "RunIISummer20UL16SIM": {
+    "tune": true,
+    "maxcopies": 1,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "overflow": {
+      "PU": {}
+    },
+    "resize": "auto"
+  },
+  "Run3Summer22pLHE": {
+    "go": true,
+    "fractionpass": 0.95
+  },
+  "Phase2HLTTDRWinter20DIGI": {
+    "maxcopies": 1,
+    "partial_copy": 0.95,
+    "lumisize": -1,
+    "fractionpass": 0.95,
+    "go": true,
+    "secondaries": {
+      "/RelValMinBias_14TeV/CMSSW_11_1_2_patch3-110X_mcRun4_realistic_v3_2026D49noPU_BSzpz35-v1/GEN-SIM": {
+        "SiteWhitelist": [
+          "T1_US_FNAL_Disk"
+        ]
+      }
+    },
+    "resize": "auto"
+  }
+}

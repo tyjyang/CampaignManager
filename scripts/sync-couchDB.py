@@ -11,8 +11,6 @@ args = parser.parse_args()
 
 campaigns_config = io_tools.import_jsonfile_as_OrderedDict(args.campConfig)
 
-os.system(f"python3 {args.dirWmAgentScripts}/campaignsConfiguration.py --load {args.campConfig}")
-
 for camp in args.campsToAdd:
     camp_config = dict(campaigns_config[camp])
     os.system(f"python3 {args.dirWmAgentScripts}/campaignsConfiguration.py --name {camp} --configuration {camp_config}")
