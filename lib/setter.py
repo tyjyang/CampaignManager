@@ -10,7 +10,7 @@ def add_PU_to_campaign(config_dict, PU, campaign, sites):
         config_dict[campaign]["secondaries"] = {}
     config_dict[campaign]["secondaries"][PU] = {"SiteWhitelist": sites}
 
-def add_attr_to_PU(config_dict, PU, attr, value):
+def set_PU_attr(config_dict, PU, attr, value):
     for campaign, config in config_dict.items():
         if "secondaries" not in config.keys(): continue
         if PU in config["secondaries"].keys():
@@ -18,4 +18,9 @@ def add_attr_to_PU(config_dict, PU, attr, value):
             config_dict[campaign]["secondaries"][PU][attr] = value
     return config_dict
 
-def remove_site_from_site_blacklist
+def set_campaign_attr(config_dict, campaign, attr_key, attr_val):
+    if campaign not in config_dict.keys():
+        raise ValueError("campaign %s not found in the config dictionary!" % campaign)
+    config_dict[campaign][attr_key] = attr_val
+
+#def remove_site_from_site_blacklist

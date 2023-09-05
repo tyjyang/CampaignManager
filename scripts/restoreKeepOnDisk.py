@@ -24,8 +24,8 @@ for pu in PUs:
     for campaign in campaigns_for_pu:
         print(campaign)
         setter.add_PU_to_campaign(new_json_obj, pu, campaign, sites)
-        setter.add_attr_to_PU(new_json_obj, pu, "keepOnDisk", True)
-        setter.add_attr_to_PU(new_json_obj, pu, "fractionOnDisk", 1.0)
+        setter.set_PU_attr(new_json_obj, pu, "keepOnDisk", True)
+        setter.set_PU_attr(new_json_obj, pu, "fractionOnDisk", 1.0)
 
 io_tools.export_dict_to_jsonfile(new_json_obj, 'campaigns_new.json')
 
