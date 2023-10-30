@@ -15,8 +15,8 @@ campaigns = io_tools.import_jsonfile_as_OrderedDict(args.input)
 if not args.omit: args.omit = []
 for camp in campaigns:
     if camp not in args.omit and (
-        ("partial_copy" in campaigns[camp] and campaigns[camp]["partial_copy"] > args.fraction) or
-        "partial_copy" not in campaigns[camp]
+        ("partial_copy" in campaigns[camp].keys() and campaigns[camp]["partial_copy"] > args.fraction) or
+        "partial_copy" not in campaigns[camp].keys()
     ):
         campaigns[camp]["partial_copy"] = args.fraction
 io_tools.export_dict_to_jsonfile(campaigns, 'campaigns_new.json')
